@@ -1,0 +1,68 @@
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(41, 130, 165);
+}
+
+nav ul{
+  padding-left: 10px;
+  margin: 0px;
+  vertical-align: middle;
+}
+
+nav h1{
+  margin: 0px;
+}
+
+nav h1 a, nav ul li a{
+  color: white;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 8px;
+}
+
+.main_container{
+  max-width: 600px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_container h1, .main_container p{
+  margin: 0px;
+}
+
+.main_container input{
+  margin: 5px 0px;
+  padding: 7px;
+  min-width: 300px;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+
+.landing_page{
+  text-align: center;
+  margin: 30px;
+}
+
+input[type="submit"]{
+  border: none;
+  cursor: pointer;
+  background-color: rgb(41, 130, 165);
+  color: white;
+  padding: 8px;
+  border-radius: 3px;
+} 
+
+.landing_page a{
+  padding: 8px;
+  background-color: rgb(41, 130, 165);
+  color: white;
+  margin: 5px 8px;
+  border-radius: 3px;
+}
